@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+# HTTP cache is reproducible; do not commit it
+data/cache/
+# committed snapshots of upstream raw data are large; keep the dir, ignore big blobs
+data/raw/*.gz
+.DS_Store
+
+# sqlite DB regenerates each run; keep JSON snapshots versioned instead
+data/catalog/*.sqlite

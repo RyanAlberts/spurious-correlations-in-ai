@@ -1,0 +1,90 @@
+# Curated timeline of major public AI model releases.
+#
+# Sources: official lab blogs, Wikipedia, llm-stats.com, llm-timeline.com.
+# Dates are the public-availability date (not the paper/preprint date).
+# `family` groups versions for cross-model synchrony analysis.
+# Keep this list to *major* releases that plausibly move public discourse;
+# minor point releases add noise to the changepoint analysis.
+
+releases:
+  # --- OpenAI ---
+  - date: 2020-06-11
+    lab: OpenAI
+    model: GPT-3 (API beta)
+    family: gpt
+  - date: 2022-11-30
+    lab: OpenAI
+    model: ChatGPT
+    family: gpt
+    landmark: true        # the inflection point most of the literature anchors on
+  - date: 2023-03-14
+    lab: OpenAI
+    model: GPT-4
+    family: gpt
+    landmark: true
+  - date: 2024-05-13
+    lab: OpenAI
+    model: GPT-4o
+    family: gpt
+  - date: 2024-09-12
+    lab: OpenAI
+    model: o1
+    family: gpt
+  - date: 2025-08-07
+    lab: OpenAI
+    model: GPT-5
+    family: gpt
+
+  # --- Anthropic ---
+  - date: 2023-03-14
+    lab: Anthropic
+    model: Claude 1
+    family: claude
+  - date: 2023-07-11
+    lab: Anthropic
+    model: Claude 2
+    family: claude
+  - date: 2024-03-04
+    lab: Anthropic
+    model: Claude 3
+    family: claude
+  - date: 2024-06-20
+    lab: Anthropic
+    model: Claude 3.5 Sonnet
+    family: claude
+  - date: 2025-02-24
+    lab: Anthropic
+    model: Claude 3.7 Sonnet
+    family: claude
+
+  # --- Google ---
+  - date: 2023-02-06
+    lab: Google
+    model: Bard (announced)
+    family: gemini
+  - date: 2023-12-06
+    lab: Google
+    model: Gemini 1.0
+    family: gemini
+  - date: 2024-02-15
+    lab: Google
+    model: Gemini 1.5
+    family: gemini
+  - date: 2024-12-11
+    lab: Google
+    model: Gemini 2.0
+    family: gemini
+
+  # --- Meta (open weights) ---
+  - date: 2023-02-24
+    lab: Meta
+    model: LLaMA
+    family: llama
+  - date: 2023-07-18
+    lab: Meta
+    model: Llama 2
+    family: llama
+  - date: 2024-04-18
+    lab: Meta
+    model: Llama 3
+    family: llama

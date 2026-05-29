@@ -1,0 +1,58 @@
+# Seed terms tracked by the pipeline.
+#
+# Each term carries the lookups every collector needs. Multi-word GPTZero
+# phrases are tracked by the live collectors (Wikipedia/GDELT/HN) but NOT by the
+# PubMed/Kobak collector, whose corpus is single-token (CountVectorizer). For the
+# v1 *real-data* charts we therefore lead with single words known to appear in the
+# Kobak excess-vocabulary list, so every flagship chart is reproducible offline.
+#
+# Fields:
+#   term            display name
+#   pubmed_word     single token to look up in Kobak yearly-counts (null = not tracked there)
+#   wiktionary      en.wiktionary title (definition-lookup signal); null to skip
+#   wiki            en.wikipedia article title; null to skip
+#   gdelt_query     phrase for GDELT timelinevolraw
+#   cluster         concept cluster (see analysis/cluster.py)
+#   negative_control  true for words that should show NO post-release rise (the null case)
+
+terms:
+  # --- academic-hedging cluster (the canonical "delve" family) ---
+  - {term: "delve",        pubmed_word: "delve",        wiktionary: "delve",        wiki: null, gdelt_query: "delve",            cluster: academic-hedging}
+  - {term: "delves",       pubmed_word: "delves",       wiktionary: "delves",       wiki: null, gdelt_query: "\"delves into\"",  cluster: academic-hedging}
+  - {term: "intricate",    pubmed_word: "intricate",    wiktionary: "intricate",    wiki: null, gdelt_query: "intricate",        cluster: academic-hedging}
+  - {term: "intricacies",  pubmed_word: "intricacies",  wiktionary: "intricacies",  wiki: null, gdelt_query: "intricacies",      cluster: academic-hedging}
+  - {term: "nuanced",      pubmed_word: "nuanced",      wiktionary: "nuanced",      wiki: null, gdelt_query: "nuanced",          cluster: academic-hedging}
+
+  # --- emphasis / structure cluster ---
+  - {term: "underscores",  pubmed_word: "underscores",  wiktionary: "underscore",   wiki: null, gdelt_query: "underscores",      cluster: emphasis-structure}
+  - {term: "underscore",   pubmed_word: "underscore",   wiktionary: "underscore",   wiki: null, gdelt_query: "underscore",       cluster: emphasis-structure}
+  - {term: "notably",      pubmed_word: "notably",      wiktionary: "notably",      wiki: null, gdelt_query: "notably",          cluster: emphasis-structure}
+  - {term: "pivotal",      pubmed_word: "pivotal",      wiktionary: "pivotal",      wiki: null, gdelt_query: "pivotal",          cluster: emphasis-structure}
+  - {term: "crucial",      pubmed_word: "crucial",      wiktionary: "crucial",      wiki: null, gdelt_query: "crucial",          cluster: emphasis-structure}
+
+  # --- promotional / boosterish cluster ---
+  - {term: "showcasing",   pubmed_word: "showcasing",   wiktionary: "showcasing",   wiki: null, gdelt_query: "showcasing",       cluster: promotional}
+  - {term: "boasts",       pubmed_word: "boasts",       wiktionary: "boasts",       wiki: null, gdelt_query: "boasts",           cluster: promotional}
+  - {term: "garnered",     pubmed_word: "garnered",     wiktionary: "garnered",     wiki: null, gdelt_query: "garnered",         cluster: promotional}
+  - {term: "commendable",  pubmed_word: "commendable",  wiktionary: "commendable",  wiki: null, gdelt_query: "commendable",      cluster: promotional}
+  - {term: "meticulous",   pubmed_word: "meticulous",   wiktionary: "meticulous",   wiki: null, gdelt_query: "meticulous",       cluster: promotional}
+  - {term: "groundbreaking", pubmed_word: "groundbreaking", wiktionary: "groundbreaking", wiki: null, gdelt_query: "groundbreaking", cluster: promotional}
+  - {term: "burgeoning",   pubmed_word: "burgeoning",   wiktionary: "burgeoning",   wiki: null, gdelt_query: "burgeoning",       cluster: promotional}
+  - {term: "realm",        pubmed_word: "realm",        wiktionary: "realm",        wiki: null, gdelt_query: "realm",            cluster: promotional}
+  - {term: "noteworthy",   pubmed_word: "noteworthy",   wiktionary: "noteworthy",   wiki: null, gdelt_query: "noteworthy",       cluster: promotional}
+
+  # --- inspirational cluster (sparser in PubMed; tracked live + where present) ---
+  - {term: "tapestry",     pubmed_word: "tapestry",     wiktionary: "tapestry",     wiki: null, gdelt_query: "\"rich tapestry\"", cluster: inspirational}
+  - {term: "testament",    pubmed_word: "testament",    wiktionary: "testament",    wiki: null, gdelt_query: "\"a testament to\"", cluster: inspirational}
+
+  # --- in-domain negative controls (should show NO post-release rise) ---
+  - {term: "umbrella",     pubmed_word: "umbrella",     wiktionary: "umbrella",     wiki: null, gdelt_query: "umbrella",         cluster: control, negative_control: true}
+  - {term: "bicycle",      pubmed_word: "bicycle",      wiktionary: "bicycle",      wiki: null, gdelt_query: "bicycle",          cluster: control, negative_control: true}
+  - {term: "saturday",     pubmed_word: "saturday",     wiktionary: "Saturday",     wiki: null, gdelt_query: "Saturday",         cluster: control, negative_control: true}
+
+# Stylistic markers that are not single dictionary words (hypothesis H2). These are
+# tracked only by corpus collectors that can count punctuation/phrase templates;
+# the PubMed collector skips them. Listed here so the pipeline knows they exist.
+stylistic_markers:
+  - {term: "em-dash",           pattern: "—",                       cluster: stylistic}
+  - {term: "not just X but Y",  pattern: "(?i)not (just|only) .{1,40}? but",  cluster: stylistic}

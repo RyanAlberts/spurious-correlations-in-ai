@@ -1,0 +1,114 @@
+# GPTZero "AI Vocabulary" leaderboard — top 100 phrases by over-representation ratio.
+#
+# Provenance: https://gptzero.me/ai-vocabulary (top-100 snapshot supplied by the
+#   project owner; the live page returns 403 to automated fetchers, so this file is
+#   the authoritative seed and `collectors/gptzero.py` attempts a best-effort refresh).
+# `ratio` = "N times more frequently used by AI than humans" (GPTZero's framing).
+# `suspect_ocr: true` marks entries that look like transcription garbles; the
+#   `suggested` field is our conservative correction. `overrep.py` surfaces these
+#   for human review rather than silently rewriting them.
+#
+# Snapshot date: 2025-05-29
+snapshot_date: 2025-05-29
+source: gptzero.me/ai-vocabulary
+phrases:
+  - {rank: 1,  phrase: "provide a valuable insight",        ratio: 182, example: "The study aims to provide a valuable insight into consumer behavior."}
+  - {rank: 2,  phrase: "left an indelible mark",            ratio: 111, example: "The artist's work left an indelible mark on the cultural landscape of the city."}
+  - {rank: 3,  phrase: "a stark reminder",                  ratio: 88,  example: "The abandoned house stood as a stark reminder of the neighborhood's former glory."}
+  - {rank: 4,  phrase: "a nuanced understanding",           ratio: 77,  example: "Her experience gave her a nuanced understanding of the complexities involved."}
+  - {rank: 5,  phrase: "significant role in shaping",       ratio: 70,  example: "Parents play a significant role in shaping their children's values."}
+  - {rank: 6,  phrase: "the complex interplay",             ratio: 69,  example: "Scientists study the complex interplay between genes and environment."}
+  - {rank: 7,  phrase: "broad implication",                 ratio: 64,  example: "The findings have a broad implication for understanding climate change."}
+  - {rank: 8,  phrase: "an unwavering commitment",          ratio: 59,  example: "Her success is a result of an unwavering commitment to her goals."}
+  - {rank: 9,  phrase: "endure a legacy",                   ratio: 58,  example: "Artists often endure a legacy that influences generations to come.", suspect_ocr: true, suggested: "leave a legacy"}
+  - {rank: 10, phrase: "underscore the importance",         ratio: 53,  example: "Recent studies underscore the importance of early childhood education."}
+  - {rank: 11, phrase: "play a pivotal role",               ratio: 49,  example: "In the success of any project, teamwork can play a pivotal role."}
+  - {rank: 12, phrase: "a pivotal moment",                  ratio: 44,  example: "The decision to move to a new city was a pivotal moment in her life."}
+  - {rank: 13, phrase: "navigate the complex",              ratio: 44,  example: "To succeed, you need to navigate the complex landscape of skills."}
+  - {rank: 14, phrase: "mark a turning point",              ratio: 44,  example: "The new policy aims to mark a turning point in how we address climate change."}
+  - {rank: 15, phrase: "continue to inspire",               ratio: 44,  example: "Her stories continue to inspire countless writers around the world."}
+  - {rank: 16, phrase: "gain a deeper understanding",       ratio: 43,  example: "Reading diverse literature can help you gain a deeper understanding of cultures."}
+  - {rank: 17, phrase: "the transformative power",          ratio: 43,  example: "The documentary highlighted the transformative power of art in communities."}
+  - {rank: 18, phrase: "hold a significant",                ratio: 43,  example: "These artifacts hold a significant place in our cultural history."}
+  - {rank: 19, phrase: "play a crucial role",               ratio: 42,  example: "Community volunteers play a crucial role in supporting local charities."}
+  - {rank: 20, phrase: "particularly a concern",            ratio: 42,  example: "The rising temperatures are particularly a concern for farmers."}
+  - {rank: 21, phrase: "the relentless pursuit",            ratio: 41,  example: "Many entrepreneurs are driven by the relentless pursuit of their dreams."}
+  - {rank: 22, phrase: "emphasize the need",                ratio: 40,  example: "The study aims to emphasize the need for mental health awareness in schools."}
+  - {rank: 23, phrase: "target an intervention",            ratio: 39,  example: "Researchers aim to target an intervention that will reduce bullying."}
+  - {rank: 24, phrase: "a multi-faceted approach",          ratio: 39,  example: "The team adopted a multi-faceted approach to solve the complex problem."}
+  - {rank: 25, phrase: "a serf reminder",                   ratio: 39,  example: "The note serves as a serf reminder to pick up groceries.", suspect_ocr: true, suggested: "a stark reminder"}
+  - {rank: 26, phrase: "highlight the potential",           ratio: 38,  example: "The study aimed to highlight the potential of renewable energy sources."}
+  - {rank: 27, phrase: "a significant milestone",           ratio: 37,  example: "Completing the project ahead of schedule was a significant milestone."}
+  - {rank: 28, phrase: "implication to understand",         ratio: 36,  example: "The study has significant implication to understand diet and mental health.", suspect_ocr: true, suggested: "implications for understanding"}
+  - {rank: 29, phrase: "potential risk associated",         ratio: 36,  example: "Investors should assess the potential risk associated with new ventures."}
+  - {rank: 30, phrase: "leave a lasting",                   ratio: 35,  example: "The charity's efforts will leave a lasting impact on the community."}
+  - {rank: 31, phrase: "add a layer",                       ratio: 35,  example: "The artist decided to add a layer of color to enhance the depth."}
+  - {rank: 32, phrase: "offer a valuable",                  ratio: 35,  example: "The workshop will offer a valuable opportunity for networking."}
+  - {rank: 33, phrase: "a profound implication",            ratio: 35,  example: "The discovery has a profound implication for our understanding of the universe."}
+  - {rank: 34, phrase: "case highlights the importance",    ratio: 34,  example: "The recent case highlights the importance of adhering to safety protocols."}
+  - {rank: 35, phrase: "finding a highlight of the importance", ratio: 33, example: "The presentation focused on finding a highlight of the importance of sustainability.", suspect_ocr: true, suggested: "findings highlight the importance"}
+  - {rank: 36, phrase: "pave the way for the future",       ratio: 32,  example: "The breakthrough technology will pave the way for the future."}
+  - {rank: 37, phrase: "a significant step forward",        ratio: 32,  example: "The new policy is a significant step forward in addressing climate change."}
+  - {rank: 38, phrase: "face a significant",                ratio: 32,  example: "Many companies face a significant challenge in adapting to new technologies."}
+  - {rank: 39, phrase: "finding an important implication",  ratio: 31,  example: "The team is focused on finding an important implication of their study.", suspect_ocr: true, suggested: "an important implication"}
+  - {rank: 40, phrase: "emphasize the importance",          ratio: 30,  example: "The speaker aimed to emphasize the importance of mental health."}
+  - {rank: 41, phrase: "a significant implication",         ratio: 30,  example: "The study revealed a significant implication for environmental policy."}
+  - {rank: 42, phrase: "delve deeper into",                 ratio: 30,  example: "Researchers aim to delve deeper into the effects of climate change."}
+  - {rank: 43, phrase: "reply in tone",                     ratio: 30,  example: "It's important to reply in tone when communicating with clients.", suspect_ocr: true, suggested: "reply in kind"}
+  - {rank: 44, phrase: "raise an important question",       ratio: 30,  example: "The unexpected results raise an important question about our assumptions."}
+  - {rank: 45, phrase: "make an informed decision in regard to", ratio: 29, example: "It's essential to make an informed decision in regard to your investment strategy."}
+  - {rank: 46, phrase: "far-reaching implications",         ratio: 29,  example: "The new policy has far-reaching implications for the economy."}
+  - {rank: 47, phrase: "a comprehensive framework",         ratio: 29,  example: "The policy establishes a comprehensive framework for sustainable development."}
+  - {rank: 48, phrase: "importance to consider",            ratio: 29,  example: "When planning a budget, it is of utmost importance to consider all expenses."}
+  - {rank: 49, phrase: "a unique blend",                    ratio: 29,  example: "The smoothie was made from a unique blend of tropical fruits."}
+  - {rank: 50, phrase: "couldn't help but wonder",          ratio: 28,  example: "As she gazed at the stars, she couldn't help but wonder what lies beyond."}
+  - {rank: 51, phrase: "underscore the need",               ratio: 28,  example: "The recent events underscore the need for more stringent safety regulations."}
+  - {rank: 52, phrase: "framework for understanding",       ratio: 28,  example: "The study offers a comprehensive framework for understanding human behavior."}
+  - {rank: 53, phrase: "highlight the need",                ratio: 28,  example: "The studies highlight the need for improved mental health resources."}
+  - {rank: 54, phrase: "a comprehensive understanding",     ratio: 28,  example: "Studying cultures gives us a comprehensive understanding of the world."}
+  - {rank: 55, phrase: "the journey begins",                ratio: 27,  example: "With excitement, the journey begins as they set off on their adventure."}
+  - {rank: 56, phrase: "understanding the fundamental",     ratio: 27,  example: "Students must focus on understanding the fundamental principles of science."}
+  - {rank: 57, phrase: "despite the face",                  ratio: 26,  example: "She smiled despite the face of overwhelming challenges.", suspect_ocr: true, suggested: "in the face of"}
+  - {rank: 58, phrase: "a delicate balance",                ratio: 26,  example: "Maintaining a delicate balance between work and personal life is essential."}
+  - {rank: 59, phrase: "the path ahead",                    ratio: 26,  example: "The team discussed strategies to clarify the path ahead."}
+  - {rank: 60, phrase: "gain an insight",                   ratio: 26,  example: "Through her research, she was able to gain an insight into consumer behavior."}
+  - {rank: 61, phrase: "laid the groundwork",               ratio: 26,  example: "The early explorers laid the groundwork for future scientific discoveries."}
+  - {rank: 62, phrase: "understand the behavior",           ratio: 26,  example: "We need to understand the behavior of our target audience."}
+  - {rank: 63, phrase: "renew a sense",                     ratio: 26,  example: "The workshop aimed to renew a sense of community among participants."}
+  - {rank: 64, phrase: "aim to explore",                    ratio: 26,  example: "The seminar will aim to explore innovative solutions for sustainable living."}
+  - {rank: 65, phrase: "present a unique challenge",        ratio: 26,  example: "The weather patterns present a unique challenge for farmers."}
+  - {rank: 66, phrase: "provide a comprehensive",           ratio: 25,  example: "The course aims to provide a comprehensive overview of web development."}
+  - {rank: 67, phrase: "particularly with regard to",       ratio: 25,  example: "The study explores climate change, particularly with regard to biodiversity."}
+  - {rank: 68, phrase: "address the root cause",            ratio: 25,  example: "To create lasting change, we must address the root cause of the issue."}
+  - {rank: 69, phrase: "loom large in",                     ratio: 25,  example: "The consequences of climate change loom large in policy discussions."}
+  - {rank: 70, phrase: "the implication of the finding",    ratio: 25,  example: "The researchers discussed the implication of the finding in their presentation."}
+  - {rank: 71, phrase: "approach ensures a",                ratio: 25,  example: "The team's collaborative approach ensures a successful project outcome."}
+  - {rank: 72, phrase: "an ongoing dialogue",               ratio: 25,  example: "Leaders emphasized maintaining an ongoing dialogue with residents."}
+  - {rank: 73, phrase: "carry a weight",                    ratio: 25,  example: "The backpack seemed to carry a weight far more than its size suggested."}
+  - {rank: 74, phrase: "ability to navigate",               ratio: 25,  example: "Her ability to navigate complex challenges sets her apart as a leader."}
+  - {rank: 75, phrase: "present a significant",             ratio: 24,  example: "The study will present a significant breakthrough in renewable energy."}
+  - {rank: 76, phrase: "study shed light on",               ratio: 24,  example: "The recent study shed light on the effects of climate change."}
+  - {rank: 77, phrase: "a diverse perspective",             ratio: 24,  example: "Her background offers a diverse perspective on global issues."}
+  - {rank: 78, phrase: "face an adversity",                 ratio: 24,  example: "Many successful people face an adversity that shapes their character."}
+  - {rank: 79, phrase: "a comprehensive overview",          ratio: 24,  example: "The presentation gave a comprehensive overview of the project's objectives."}
+  - {rank: 80, phrase: "potentially lead to",               ratio: 24,  example: "The policy changes could potentially lead to improved employee satisfaction."}
+  - {rank: 81, phrase: "a broad understanding",             ratio: 24,  example: "A broad understanding of cultures can enhance global communication."}
+  - {rank: 82, phrase: "contribute to the understanding",   ratio: 24,  example: "The study aims to contribute to the understanding of climate change."}
+  - {rank: 83, phrase: "shape the public",                  ratio: 24,  example: "The media can significantly shape the public perception of social issues."}
+  - {rank: 84, phrase: "particularly noteworthy",           ratio: 24,  example: "The exhibition featured pieces that were particularly noteworthy."}
+  - {rank: 85, phrase: "the evidence base for decision making", ratio: 23, example: "Research strengthens the evidence base for decision making in public health."}
+  - {rank: 86, phrase: "identify an area of improvement",   ratio: 23,  example: "We must identify an area of improvement in our communication practices."}
+  - {rank: 87, phrase: "analysis of the data to analyze and use", ratio: 23, example: "The team conducted an analysis of the data to analyze and use.", suspect_ocr: true, suggested: "analysis of the data"}
+  - {rank: 88, phrase: "undergone a significant",           ratio: 23,  example: "The project has undergone a significant transformation over the past year."}
+  - {rank: 89, phrase: "need a robust",                     ratio: 23,  example: "We need a robust solution that can handle multiple tasks efficiently."}
+  - {rank: 90, phrase: "voice will fill",                   ratio: 23,  example: "Her voice will fill the room with warmth during the gathering.", suspect_ocr: true, suggested: null}
+  - {rank: 91, phrase: "concern a potential",               ratio: 22,  example: "The committee met to discuss concern a potential safety hazard.", suspect_ocr: true, suggested: "concern: a potential"}
+  - {rank: 92, phrase: "initiative aims to",                ratio: 22,  example: "The sustainability initiative aims to reduce plastic waste in the community."}
+  - {rank: 93, phrase: "offering a unique",                 ratio: 22,  example: "The gallery is offering a unique opportunity to view original works."}
+  - {rank: 94, phrase: "a new avenue",                      ratio: 22,  example: "The discovery opened up a new avenue for archaeological research."}
+  - {rank: 95, phrase: "despite the challenge",             ratio: 22,  example: "She completed the project on time, despite the challenge of a tight deadline."}
+  - {rank: 96, phrase: "ready to embrace",                  ratio: 22,  example: "The team is ready to embrace the changes necessary for improvement."}
+  - {rank: 97, phrase: "the societal expectation",          ratio: 22,  example: "Young adults feel pressured by the societal expectation to pursue a career."}
+  - {rank: 98, phrase: "make accessible",                   ratio: 22,  example: "The library aims to make accessible a wide range of digital resources."}
+  - {rank: 99, phrase: "today at a fast pace",              ratio: 22,  example: "Technology is evolving today at a fast pace, transforming how we live.", suspect_ocr: true, suggested: "at a fast pace today"}
+  - {rank: 100, phrase: "stand in stark contrast",          ratio: 22,  example: "The vibrant colors stand in stark contrast to the muted tones of the room."}
