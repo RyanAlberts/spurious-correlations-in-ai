@@ -7,7 +7,7 @@ charts, and [gptzero.me/ai-vocabulary](https://gptzero.me/ai-vocabulary) for the
 "N× more frequent in AI" framing — but with our own data and an explicit
 spurious-vs-candidate-causal test.
 
-_Last run: **2026-05-29** · 24 terms ·
+_Last run: **2026-06-06** · 24 terms ·
 20 `candidate-causal` · 20 flagged for review · updates weekly (Saturdays)._
 
 > **Correlation is not causation.** This project is named *Spurious Correlations in AI* for a reason: most of what follows is, by construction, spurious. Two lines both sloping up since 2022 will always correlate. We label a term `candidate-causal` **only** when a big correlation is backed by a real *post-release break from the word's own prior trend* (interrupted time series) and survival of a confound control — and even then a human reviews it before we believe it.
@@ -115,8 +115,8 @@ language is diffusing into human discourse over time.
 
 ## Data sources & provenance
 
-This run used: **pubmed_kobak**.
-Live web collectors were unreachable in this environment, so the run is anchored on the real, reproducible PubMed/Kobak word-frequency data; the daily collectors (Wikipedia/Wiktionary/GDELT/Hacker News) run in CI and locally where those hosts are reachable.
+This run used: **gdelt, google_trends_csv, hackernews, linkedin_manual, pubmed_kobak, wikipedia, wiktionary**.
+
 Reference data: model-release timeline (`data/model_releases.yaml`), GPTZero top-100
 (`data/gptzero_vocabulary.yaml`), Kobak et al. excess-vocabulary dataset.
 The growing dictionary is versioned under `data/catalog/` (one JSON snapshot per run).
