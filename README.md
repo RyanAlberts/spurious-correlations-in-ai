@@ -7,7 +7,7 @@ charts, and [gptzero.me/ai-vocabulary](https://gptzero.me/ai-vocabulary) for the
 "N× more frequent in AI" framing — but with our own data and an explicit
 spurious-vs-candidate-causal test.
 
-_Last run: **2026-08-15** · 24 terms ·
+_Last run: **2026-08-22** · 24 terms ·
 20 `candidate-causal` · 20 flagged for review · updates weekly (Saturdays)._
 
 > **Correlation is not causation.** This project is named *Spurious Correlations in AI* for a reason: most of what follows is, by construction, spurious. Two lines both sloping up since 2022 will always correlate. We label a term `candidate-causal` **only** when a big correlation is backed by a real *post-release break from the word's own prior trend* (interrupted time series) and survival of a confound control — and even then a human reviews it before we believe it.
