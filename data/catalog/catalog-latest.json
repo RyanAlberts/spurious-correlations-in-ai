@@ -1,11 +1,11 @@
 {
-  "run_date": "2026-10-24",
+  "run_date": "2026-10-31",
   "run_id": 1,
   "n_terms": 24,
   "correlations": [
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "delve",
       "cluster": "academic-hedging",
       "family": "all",
@@ -25,7 +25,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "delves",
       "cluster": "academic-hedging",
       "family": "all",
@@ -45,7 +45,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "intricate",
       "cluster": "academic-hedging",
       "family": "all",
@@ -65,7 +65,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "intricacies",
       "cluster": "academic-hedging",
       "family": "all",
@@ -85,7 +85,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "nuanced",
       "cluster": "academic-hedging",
       "family": "all",
@@ -105,7 +105,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "underscores",
       "cluster": "emphasis-structure",
       "family": "all",
@@ -125,7 +125,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "underscore",
       "cluster": "emphasis-structure",
       "family": "all",
@@ -145,7 +145,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "notably",
       "cluster": "emphasis-structure",
       "family": "all",
@@ -165,7 +165,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "pivotal",
       "cluster": "emphasis-structure",
       "family": "all",
@@ -185,7 +185,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "crucial",
       "cluster": "emphasis-structure",
       "family": "all",
@@ -205,7 +205,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "showcasing",
       "cluster": "promotional",
       "family": "all",
@@ -225,7 +225,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "boasts",
       "cluster": "promotional",
       "family": "all",
@@ -245,7 +245,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "garnered",
       "cluster": "promotional",
       "family": "all",
@@ -265,7 +265,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "commendable",
       "cluster": "promotional",
       "family": "all",
@@ -285,7 +285,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "meticulous",
       "cluster": "promotional",
       "family": "all",
@@ -305,7 +305,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "groundbreaking",
       "cluster": "promotional",
       "family": "all",
@@ -325,7 +325,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "burgeoning",
       "cluster": "promotional",
       "family": "all",
@@ -345,7 +345,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "realm",
       "cluster": "promotional",
       "family": "all",
@@ -365,7 +365,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "noteworthy",
       "cluster": "promotional",
       "family": "all",
@@ -385,7 +385,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "tapestry",
       "cluster": "inspirational",
       "family": "all",
@@ -405,7 +405,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "testament",
       "cluster": "inspirational",
       "family": "all",
@@ -425,7 +425,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "umbrella",
       "cluster": "control",
       "family": "all",
@@ -445,7 +445,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "bicycle",
       "cluster": "control",
       "family": "all",
@@ -465,7 +465,7 @@
     },
     {
       "run_id": 1,
-      "run_date": "2026-10-24",
+      "run_date": "2026-10-31",
       "term": "saturday",
       "cluster": "control",
       "family": "all",
